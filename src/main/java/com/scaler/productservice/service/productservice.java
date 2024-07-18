@@ -13,8 +13,14 @@ public interface productservice{
 
     Product updateProduct(long id,Product product);
 
-    Product replaceProduct(long id,Product product);
+    Product updateProduct(Long id, Product product);
+
+    Product replaceProduct(long id, Product product);
 
 
     void deleteProduct(long id);
+
+
+
+    Product addNewProduct(Product product);
 }
